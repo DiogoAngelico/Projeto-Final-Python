@@ -1,4 +1,2 @@
 print("cristiano ronaldo")
 
-
-
