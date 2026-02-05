@@ -58,6 +58,28 @@ Estas serão as funções presentes:
 
 Quando o jogo inicia, a primeira coisa que irá aparecer ao utilizador será uma mensagem pedindo o seu nome, apóos isso terá uma mensagem de boas vindas com o respectivo nome que o usuário inseriu. Em seguida vai aparecer ao utilizador 3 opções, nessas opções estarão "Jogar", "Regras" e "Sair", o utilizador terá de escolher uma destas para assim poder continuar. Se o utlizador escolher jogar ele será transportando para o menu de dificuldades e lá terá de escolher a dificuldade que deseja, logo após isso ele será transportado para o jogo com aa dificuldade que escolheu, no final de todo o jogo de perguntas e respostas irá ter de aparecer a quantidade de pontos, quantos pontos teve, o que acertou e errou e o MVP. No fim aparecerá uma opcão de jogar novamente ou uma opção de sair
 
-## Estrutura de ficheiros / módulos (decidida por vocês)
+## 5) Estrutura de ficheiros / módulos (decidida por vocês)
 
-Utilizaremos mais de um ficheiro para poder ficar mais organizado e facil de entender,
+Para o trabalho utilizaremos dois tipos de ficheiro para o presente projeto e trabalho. O primeiro deles será o .py onde iremos fazer os modulos enquanto o sefundo por sua vez será o .json onde iremos salvar as informações
+
+## 6) Plano de testes (manual)
+
+Erros:
+
+- Caso escolher uma letra errada (exemplo, a pessoa por Z ao invês de A);
+
+- Caso a pessoa por um nome repitido ou não por nome trataremos como um erro;
+
+- Caso a pessoa esccolha uma opçção errada no menu (exemplo se ao invês de por 1. Jogar a pessoa por um 5);
+
+- Caso a pessoa escrever uma palavra ao invês da opção;
+
+- Caso tenha um problema na hora de tratar os pontos;
+
+- Caso fichero de perguntas não abrir;
+
+- Caso a pontuação dadificuldade esteja errada
+
+## 7) Mini-revisões antes de começar a programar
+
+Mateus Bitar irá fazer o menu do jogo, Diogo irá implementar as funções e Davi irá fazer o tratamento de erros
