@@ -44,7 +44,7 @@ No terminal estara as opções, de "jogar", "regras" e "sair", com no fim estand
 
 Estas serão as funções presentes:
 
-- carregar_perguntas:mostrar as perguntas para a pessoa
+- guardar_perguntas:salva as perguntas do jogo 
 
 - mostrar_menu:mostrar as 3 opções do jogo, "jogar","regras","sair"
 
