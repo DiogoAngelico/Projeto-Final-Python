@@ -1,23 +1,29 @@
+import json
+
 
 def menu(x):
-    print("---------------------------")
+    print("----------------------------")
     print(f"    BEM VINDO!!! {x} ")
     print("-----     1 Jogar      -----")
     print("-----     2 regras     -----")
     print("-----     3 sair       -----")    
-    print("---------------------------")
+    print("----------------------------")
     op = input("Qual a sua escolha?")
     return op
 
 
 def menu_1():
-        print("---------------------------")
-        print("-----  DIFICULDADES   -----")
+        print("----------------------------")
+        print("-----  DIFICULDADES    -----")
         print("-----  1-> Fácil       -----")
         print("-----  2-> Médio       -----")
         print("-----  67-> Díficil     -----")    
-        print("---------------------------")
+        print("----------------------------")
         x=input("qual a dificuldade que deseja?")
+        '''
+        while True:
+            op2=
+        '''      
         
 
 def menu_2():
@@ -36,10 +42,9 @@ def menu_2():
             x=input("clique enter para continuar:")
             if x== "":
                  break
-             
 
 
-
+'''
 x=input("qual teu user: ")
 while True:
     op=menu(x)
@@ -50,4 +55,4 @@ while True:
     elif op=="3":
          print("foi um prazer ter você aqui presente no Word Quiz")
          break
-        
+''' 
