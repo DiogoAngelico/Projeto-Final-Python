@@ -19,7 +19,3 @@ def sair(y):
     if y == "3":
         print(f"Foi um prazer ter você com a gente")
               
-'''     
-def sair(y):
-    if y == "3":
-'''        
