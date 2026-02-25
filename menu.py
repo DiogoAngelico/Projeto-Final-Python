@@ -1,9 +1,7 @@
-import json
-import selecionar_dificuldade
 
 def menu(x):
     print("---------------------------")
-    print(f"----- BEM VINDO!!! {x} -----")
+    print(f"    BEM VINDO!!! {x} ")
     print("-----     1 Jogar      -----")
     print("-----     2 regras     -----")
     print("-----     3 sair       -----")    
@@ -19,19 +17,28 @@ def menu_1():
         print("-----  -> Médio       -----")
         print("-----  -> Díficil     -----")    
         print("---------------------------")
+        x=input("qual a dificuldade que deseja?")
+        
 
 def menu_2():
-        print("----------------------------------")
-        print("-----     REGRAS DO JOGO     -----")
-        print("-----                        -----")
-        print("-----                        -----")    
-        print("-----                        -----")
-        print("-----                        -----")
-        print("-----                        -----")
-        print("-----                        -----")
-        print("-----                        -----")
-        print("-----                        -----")
-        print("----------------------------------")
+        while True:
+            print("----------------------------------")
+            print("-----     REGRAS DO JOGO     -----")
+            print("-----                        -----")
+            print("-----                        -----")    
+            print("-----                        -----")
+            print("-----                        -----")
+            print("-----                        -----")
+            print("-----                        -----")
+            print("-----                        -----")
+            print("-----                        -----")
+            print("----------------------------------")
+            x=input("clique enter para continuar:")
+            if x== "":
+                 break
+             
+
+
 
 x=input("qual teu user: ")
 while True:

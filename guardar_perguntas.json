@@ -1,13 +1,19 @@
 '''
-🟢 NÍVEL FÁCIL (1–20)
-
-1-Qual é a capital de Portugal?
-A) Porto
-B) Lisboa
-C) Coimbra
-D) Faro
-✅ Resposta correta: B
-
+lista_perguntas=[
+    {
+        "Pergunta" : "Qual a capital de Portugal",
+        "Respostas" : ["Porto", "Lisboa", "Coimbra", "Faro"],
+        "Correta" : 1,
+        "Dificuldade" : "Fácil"
+    },
+    {
+        "Pergunta" : "A Revolução Industrial francesa iniciou-se em",
+        "Respostas" : ["França","Alemanha","Inglaterra","Itália"],
+        "Correta" : 1,
+        "Dificuldade" : "Fácil"
+    },
+   
+]
 
 2-A Revolução Industrial francesa iniciou-se em:
 A) França
