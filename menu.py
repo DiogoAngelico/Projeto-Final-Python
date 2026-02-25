@@ -13,9 +13,9 @@ def menu(x):
 def menu_1():
         print("---------------------------")
         print("-----  DIFICULDADES   -----")
-        print("-----  -> Fácil       -----")
-        print("-----  -> Médio       -----")
-        print("-----  -> Díficil     -----")    
+        print("-----  1-> Fácil       -----")
+        print("-----  2-> Médio       -----")
+        print("-----  67-> Díficil     -----")    
         print("---------------------------")
         x=input("qual a dificuldade que deseja?")
         

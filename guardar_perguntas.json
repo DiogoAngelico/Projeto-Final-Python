@@ -9,7 +9,7 @@ lista_perguntas=[
     {
         "Pergunta" : "A Revolução Industrial francesa iniciou-se em",
         "Respostas" : ["França","Alemanha","Inglaterra","Itália"],
-        "Correta" : 1,
+        "Correta" : 0,
         "Dificuldade" : "Fácil"
     },
    
