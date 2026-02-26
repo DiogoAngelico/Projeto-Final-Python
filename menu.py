@@ -41,7 +41,7 @@ def menu_2():
             print("-----                                                           -----")
             print("-----                                                           -----")
             print("---------------------------------------------------------------------")
-            x=input("-------------- | clique enter para continuar: | --------------")
+            input("-------------- | clique enter para continuar: | --------------")
             if x== "":
                  break
 
