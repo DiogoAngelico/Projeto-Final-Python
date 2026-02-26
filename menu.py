@@ -47,6 +47,8 @@ def menu_2():
 
 
 
+print("Totos")
+
 x=input("qual teu user: ")
 while True:
     op=menu(x)
