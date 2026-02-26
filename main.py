@@ -1,7 +1,7 @@
 import menu
 import json
 
-
+'''
 x=input("qual teu user: ")
 while True:
     op=menu.menu(x)
@@ -12,4 +12,4 @@ while True:
     elif op=="3":
          print("foi um prazer ter você aqui presente no Word Quiz")
          break
-        
+'''
