@@ -1,0 +1,122 @@
+[
+    {
+        "Pergunta" : "Qual a capital de Portugal",
+        "Respostas" : ["Porto", "Lisboa", "Coimbra", "Faro"],
+        "Correta" : 1,
+        "Dificuldade" : "Fácil"
+    },
+    {
+        "Pergunta" : "A Revolução Industrial francesa iniciou-se em",
+        "Respostas" : ["França","Alemanha","Inglaterra","Itália"],
+        "Correta" : 0,
+        "Dificuldade" : "Fácil"
+    },
+    {
+        "Pergunta" : "Qual é o maior planeta do Sistena Solar?",
+        "Resposta" : ["Terra","Saturno","Júpiter","Marte"],
+        "Correta" : 2,
+        "dificuldade" : "Fácil"
+    },
+    {
+        "Perguntas" : "Quem pintou a Mona Lisa?",
+        "resposta" : ["Michelangelo", "Leonardo da Vinci", "Rafael", "Van Gogh"],
+        "Correta" : 1,
+        "dificuldade" : "Fácil"
+    },
+    {
+        "Perguntas" : "Qual é o oceano que banha Portugal?",
+        "resposta" : ["Pacífico", "Índico", "Ártico", "Atlântico"],
+        "Correta" : 3,
+        "dificuldade" : "Fácil"
+    },
+    {
+        "Perguntas" : "Qual é a moeda oficial de Portugal?",
+        "Resposta" : ["Dólar", "Euro","Libra", "Franco"],
+        "Correta" : 1,
+        "Dificuldade" : "Fácil"
+    },
+    {
+        "Perguntas" : "Quem escreveu os Lusíadas",
+        "Resposta" : ["Fernando Pessoa", "Eça de Queirós","Luís de Camôes", "Almeida Garrett"],
+        "Correta" : 2,
+        "Dificuldade" : "Fácil"
+    },
+    {
+        "Perguntas" : "Qual é a fórmula química da água?",
+        "Resposta" : ["CO₂", "O₂","H₂O", "H₂SO₄"],
+        "Correta" : 2,
+        "Dificuldade" : "Fácil"
+    },
+    {
+        "Perguntas" : "Quantos lados tem um triângulo?",
+        "Resposta" : ["4", "5","2", "3"],
+        "Correta" : 3,
+        "Dificuldade" : "Fácil"
+    },
+    {
+        "Perguntas" : "Qual é o maior mamífero do mundo?",
+        "Resposta" : ["Elefante", "Baleia-azul","Rinoceronte", "Tubarão"],
+        "Correta" : 1,
+        "Dificuldade" : "Fácil"
+    },
+    {
+        "Perguntas" : "Qual é a língua oficial de Portugal?",
+        "Resposta" : ["Espanhol", "francês","Português", "Galego"],
+        "Correta" : 2,
+        "Dificuldade" : "Fácil"
+    },
+    {
+        "Perguntas" : "Em que país fica a Torre Eiffel?",
+        "Resposta" : ["Itália", "França","Bélgica", "Alemanha"],
+        "Correta" : 1,
+        "Dificuldade" : "Fácil"
+    },
+    {
+        "Perguntas" : "Que gás as plantas absorvem?",
+        "Resposta" : ["Oxigénio", "Hidrogénio","Dióxido de carbono", "Azoto"],
+        "Correta" : 2,
+        "Dificuldade" : "Fácil"
+    },
+    {
+        "Perguntas" : "Quantos continentes existem?",
+        "Resposta" : ["5", "6","7", "8"],
+        "Correta" : 2,
+        "Dificuldade" : "Fácil"
+    },
+    {
+        "Perguntas" : "Qual é a capital de Espanha?",
+        "Resposta" : ["Barcelona", "Madrid","Sevilha", "Valência"],
+        "Correta" : 1,
+        "Dificuldade" : "Fácil"
+    },
+    {
+        "Perguntas" : "Qual é a cor resultante da mistura de azul e amarelo?",
+        "Resposta" : ["Verde", "Roxo","Laranja", "Castanho"],
+        "Correta" : 0,
+        "Dificuldade" : "Fácil"
+    },
+    {
+        "Perguntas" : "Fórmula do dióxido de carbono:",
+        "Resposta" : ["CO", "CO₂","C₂O", "O₂C"],
+        "Correta" : 1,
+        "Dificuldade" : "Fácil"
+    },
+    {
+        "Perguntas" : "O coração pertence a que sistema?",
+        "Resposta" : ["Digestivo", "Nervoso","Circulatório", "Repiratório"],
+        "Correta" : 2,
+        "Dificuldade" : "Fácil"
+    },
+    {
+        "Perguntas" : "A Guerra Fria foi:",
+        "Resposta" : ["Conflito direto entre EUA e URSS", "Guerra nuclear","COnflito ideológico sem confronto direto", "Guerra civil europeia"],
+        "Correta" : 2,
+        "Dificuldade" : "Fácil"
+    },
+    {
+        "Perguntas" : "A democracia baseia-se principalmente em:",
+        "Resposta" : ["Poder militar", "Voto popular","Hereditariedade", "Religião oficial"],
+        "Correta" : 1,
+        "Dificuldade" : "Fácil"
+    }
+]

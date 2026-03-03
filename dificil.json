@@ -1,0 +1,122 @@
+[
+    {
+        "Pergunta" : "A constituição Portuguesa estabele:",
+        "Respostas" : ["Ditadura", "Separação de Poderes", "Monarquia", "Governo militar"],
+        "Correta" : 1,
+        "Dificuldade" : "Difícil"
+    },
+    {
+        "Pergunta" : "O Iluminismo defendia:",
+        "Respostas" : ["Poder absoluta do rei", "Supremacia religiosa", "Razão e ciência", "feudalismo"],
+        "Correta" : 2,
+        "Dificuldade" : "Difícil"
+    },
+    {
+        "Pergunta" : "Portugal entrou na CEE (Atual UE) em:",
+        "Respostas" : ["1986", "1992", "1974", "2000"],
+        "Correta" : 0,
+        "Dificuldade" : "Difícil"
+    },
+    {
+        "Pergunta" : "País do Sol Nascente",
+        "Respostas" : ["China", "Coreia do sul", "Japão", "Tailândia"],
+        "Correta" : 2,
+        "Dificuldade" : "Difícil"
+    },
+    {
+        "Pergunta" : "Em que ano foi implantada a República em Protugal",
+        "Respostas" : ["1910", "1926", "1890", "1905"],
+        "Correta" : 0,
+        "Dificuldade" : "Difícil"
+    },
+    {
+        "Pergunta" : "A meiose contribui para:",
+        "Respostas" : ["Crescimento", "Reparação", "Variabilidade genética", "Digestão"],
+        "Correta" : 2,
+        "Dificuldade" : "Difícil"
+    },
+    {
+        "Pergunta" : "O Tratado de Tordesilhas foi assinado em:",
+        "Respostas" : ["1492", "1494", "1500", "1510"],
+        "Correta" : 1,
+        "Dificuldade" : "Difícil"
+    },
+    {
+        "Pergunta" : "A dilaração do tempo ocorre segundo:",
+        "Respostas" : ["Lei da Gravidade", "Relatividade Restrita", "Termodinâmica", "Eletromagnetismo"],
+        "Correta" : 1,
+        "Dificuldade" : "Difícil"
+    },
+    {
+        "Pergunta" : "O Barroco caracteriza-se por:",
+        "Respostas" : ["Simplicidade extrema", "Excesso ornamental", "Minimalismo", "Abstração geométrica"],
+        "Correta" : 1,
+        "Dificuldade" : "Difícil"
+    },
+    {
+        "Pergunta" : "Feedback negativo hormonal significa:",
+        "Respostas" : ["Estímulo continuo", "bloqueio dad produção após excesso", "Produção aleatoria", "Ausênsia de controlo"],
+        "Correta" : 1,
+        "Dificuldade" : "Difícil"
+    },
+    {
+        "Pergunta" : "A Revolução Industrial iniciou-se em:",
+        "Respostas" : ["França", "Alemanha", "Inglaterra", "Itália"],
+        "Correta" : 2,
+        "Dificuldade" : "Difícil"
+    },
+    {
+        "Pergunta" : "O príncipe foi escrito por:",
+        "Respostas" : ["hobbit", "Loki", "Maquiavel", "Rousseau"],
+        "Correta" : 2,
+        "Dificuldade" : "Difícil"
+    },
+    {
+        "Pergunta" : "A separação de poderes foi defendida por:",
+        "Respostas" : ["Voltaire", "Montesquieu", "Marx", "Kant"],
+        "Correta" : 1,
+        "Dificuldade" : "Difícil"
+    },
+    {
+        "Pergunta" : "O 25 de Abril de 74 ocorreu em:",
+        "Respostas" : ["1926", "1961", "1974", "1986"],
+        "Correta" : 2,
+        "Dificuldade" : "Difícil"
+    },
+    {
+        "Pergunta" : "Os rins regulam:",
+        "Respostas" : ["Visão", "Pressão arterial", "Audição", "Movimento"],
+        "Correta" : 1,
+        "Dificuldade" : "Difícil"
+    },
+    {
+        "Pergunta" : "Biodiversidade inclui diversidade:",
+        "Respostas" : ["Apenas animal", "Apenas vegetal", "Genética, espécies e ecossistemas", "Climática"],
+        "Correta" : 2,
+        "Dificuldade" : "Difícil"
+    },
+    {
+        "Pergunta" : "O Estado Novo terminou com:",
+        "Respostas" : ["Golpe militar de 1926", "Revolução dos Cravos", "Entrada na UE", "Tratado de Lisboa"],
+        "Correta" : 1,
+        "Dificuldade" : "Difícil"
+    },
+    {
+        "Pergunta" : "A teoria dad relatividade foi proposta por:",
+        "Respostas" : ["Newton", "Einstein", "Galileo", "Planck"],
+        "Correta" : 1,
+        "Dificuldade" : "Difícil"
+    },
+    {
+        "Pergunta" : "O Banco Central Europeu tem como principal objetivo:",
+        "Respostas" : ["Aumentar impostos", "Controlar a inflação", "Regular eleições", "Financiar guerras"],
+        "Correta" : 1,
+        "Dificuldade" : "Difícil"
+    },
+    {
+        "Pergunta" : "Qual é o elemento químico com o símbolo W?",
+        "Respostas" : ["Tungsténio", "Titânio", "Tântalo", "Vanádio"],
+        "Correta" : 0,
+        "Dificuldade" : "Difícil"
+    }
+]
