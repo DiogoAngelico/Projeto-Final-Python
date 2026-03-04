@@ -3,17 +3,25 @@ Projeto final feito por Davi, Diogo e Bitar
 
 ## Como vamos apresentar as perguntas e memórias?:
 
-- Nós iremos guardar as pergutas em um dicionario onde também estarão as respostas em formato de lista (apresentadas por A, B, C, D), de forma simplificada usaremos dicionarios e listas; 
+- Nós iremos guardar as pergutas em 3 arquivos json diferentes, o facil.json, medio.json e dificil e dificil.json, essas perguntas serao guardadas em uma lista de dicionarios, em que irá ter a pergunta, as respostas guardadas dentro de um dicionario, o indice da resposta certa, e o nivel de dificuldade da pergunta.
 
 ex:
 
 ```Python
-dicionario={
+[{
     "pergunta":"pergunta",
     "resposta":["resposta","resposta1","resposta2","resposta4"],
     "ressposta certa":1,
     "dificuldade":"dificil"
-}
+},
+{
+    "pergunta":"pergunta2",
+    "resposta":["resposta2","resposta12","resposta22","resposta42"],
+    "ressposta certa":3,
+    "dificuldade":"dificil"
+},
+...
+]
 ```
 
 
@@ -30,15 +38,27 @@ def dificuldade(*args):
 
 #  entradas (o que o utilizador escreve / o que vem do JSON)
 
-O utilizador irá escrever seu nome para poder ser identificado, após isso ele irá escrever a opção que deseja se escolher [por exemplo se quiser jogar vai escrever "1", se for escolher a opção ele irá escrever "A"];
+O utilizador irá escrever seu nome para poder ser identificado, após isso ele irá escrever a opção que deseja se escolher [por exemplo se quiser jogar vai escrever "1", se quiser escolher as regras "2" e etc];
+
+ex:
+```py
+def menu_1():
+        print("----------------------------")
+        print("-----  DIFICULDADES    -----")
+        print("-----  1-> Fácil       -----")
+        print("-----  2-> Médio       -----")
+        print("-----  67-> Díficil     -----")    
+        print("----------------------------")
+        x=input("qual a dificuldade que deseja?")
+```
 
 # processamento (o que o programa calcula/decide)
 
-O programa vai calcular as perguntas que serão geradas automaticamente, calcular quantos pontos terá a pergunta e calcular quantos pontos a pessoa poderia ter e quantos ela teve;
+O programa vai mostrar o menu da difiuldade depois do utilizador escolher a opção de jogar, irá escolher a sua dificuldade em outro menu, ao escolher esse modo de dificuldade ele entrará no menu do quiz de perguntas gerais sobre aquela dificuldade, ao final do jogo o programa irá mostrar a sua pontuação, quantas perguntas acertou e a tabela de MVPS, 
 
 # saídas (o que mostra no terminal / o que guarda em ficheiro)
 
-No terminal estara as opções, de "jogar", "regras" e "sair", com no fim estando presente os creditos dos criadores. Será guardado em fichero onde vai ser calculado os pontos, os nomes dos usúarios e os erros;
+No terminal mostrará uma frase a perguntas o seu nome, dara boas vindas e mostrara o menu principal do jogo, se clicar em regras mostra as regras, se clicar em sair acaba com a programação e se clicar em jogar vai escolher o modo de dificuldade, depois de escolher a dificuldade no menu de seleção de dificuldade vai mostrar o quiz para o jogador responder, no final irá mostrar se quer jogar novamente naquela mesma dificuldade, se quer jogar outra dificuldade, ou se quer sair do jogo (neste caso irá acabar com a execução do programa).
 
 ## 3) Lista de funções (com responsabilidades)
 
@@ -56,11 +76,11 @@ Estas serão as funções presentes:
 
 ## 4) Fluxo do programa
 
-Quando o jogo inicia, a primeira coisa que irá aparecer ao utilizador será uma mensagem pedindo o seu nome, apóos isso terá uma mensagem de boas vindas com o respectivo nome que o usuário inseriu. Em seguida vai aparecer ao utilizador 3 opções, nessas opções estarão "Jogar", "Regras" e "Sair", o utilizador terá de escolher uma destas para assim poder continuar. Se o utlizador escolher jogar ele será transportando para o menu de dificuldades e lá terá de escolher a dificuldade que deseja, logo após isso ele será transportado para o jogo com aa dificuldade que escolheu, no final de todo o jogo de perguntas e respostas irá ter de aparecer a quantidade de pontos, quantos pontos teve, o que acertou e errou e o MVP. No fim aparecerá uma opcão de jogar novamente ou uma opção de sair
+Quando o jogo inicia, a primeira coisa que irá aparecer ao utilizador será uma mensagem pedindo o seu nome, após isso terá uma mensagem de boas vindas com o respectivo nome que o usuário inseriu. Em seguida vai aparecer ao utilizador 3 opções, nessas opções estarão "Jogar", "Regras" e "Sair", o utilizador terá de escolher uma destas para assim poder continuar. Se o utlizador escolher jogar ele será transportando para o menu de dificuldades e lá terá de escolher a dificuldade que deseja, logo após isso ele será transportado para o jogo com a dificuldade que escolheu, no final de todo o jogo de perguntas e respostas irá ter de aparecer a quantidade de pontos, quantos pontos teve, o que acertou e errou e o MVP. No fim aparecerá uma opcão de jogar novamente, se quer jogar outro modo, ou uma opção de sair
 
 ## 5) Estrutura de ficheiros / módulos (decidida por vocês)
 
-Para o trabalho utilizaremos dois tipos de ficheiro para o presente projeto e trabalho. O primeiro deles será o .py onde iremos fazer os modulos enquanto o sefundo por sua vez será o .json onde iremos salvar as informações
+Para o trabalho utilizaremos dois tipos de ficheiro para o trabalho. O primeiro deles será o .py onde iremos fazer os modulos e usaremos os arquivos.json onde iremos salvar as informações
 
 ## 6) Plano de testes (manual)
 
@@ -82,4 +102,4 @@ Erros:
 
 ## 7) Mini-revisões antes de começar a programar
 
-Mateus Bitar irá fazer o menu do jogo, Diogo irá implementar as funções e Davi irá fazer o tratamento de erros
+Mateus Bitar irá fazer o menu do jogo e a soma dos pontos, Diogo irá implementar as funções e programar a leitura dos arquivos json e Davi irá fazer outras funções tratamento de erros e guardar as perguntas em ficheiros json
