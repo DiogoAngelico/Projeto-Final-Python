@@ -1,122 +1,122 @@
 [
     {
-        "Pergunta" : "A constituição Portuguesa estabele:",
-        "Respostas" : ["Ditadura", "Separação de Poderes", "Monarquia", "Governo militar"],
-        "Correta" : 1,
-        "Dificuldade" : "Difícil"
+        "Pergunta": "A constituição Portuguesa estabele:",
+        "Resposta": ["0-Ditadura", "1-Separação de Poderes", "2-Monarquia", "3-Governo militar"],
+        "Correta": 1,
+        "Dificuldade": "Difícil"
     },
     {
-        "Pergunta" : "O Iluminismo defendia:",
-        "Respostas" : ["Poder absoluta do rei", "Supremacia religiosa", "Razão e ciência", "feudalismo"],
-        "Correta" : 2,
-        "Dificuldade" : "Difícil"
+        "Pergunta": "O Iluminismo defendia:",
+        "Resposta": ["0-Poder absoluta do rei", "1-Supremacia religiosa", "2-Razão e ciência", "3-feudalismo"],
+        "Correta": 2,
+        "Dificuldade": "Difícil"
     },
     {
-        "Pergunta" : "Portugal entrou na CEE (Atual UE) em:",
-        "Respostas" : ["1986", "1992", "1974", "2000"],
-        "Correta" : 0,
-        "Dificuldade" : "Difícil"
+        "Pergunta": "Portugal entrou na CEE (Atual UE) em:",
+        "Resposta": ["0-1986", "1-1992", "2-1974", "3-2000"],
+        "Correta": 0,
+        "Dificuldade": "Difícil"
     },
     {
-        "Pergunta" : "País do Sol Nascente",
-        "Respostas" : ["China", "Coreia do sul", "Japão", "Tailândia"],
-        "Correta" : 2,
-        "Dificuldade" : "Difícil"
+        "Pergunta": "País do Sol Nascente",
+        "Resposta": ["0-China", "1-Coreia do sul", "2-Japão", "3-Tailândia"],
+        "Correta": 2,
+        "Dificuldade": "Difícil"
     },
     {
-        "Pergunta" : "Em que ano foi implantada a República em Protugal",
-        "Respostas" : ["1910", "1926", "1890", "1905"],
-        "Correta" : 0,
-        "Dificuldade" : "Difícil"
+        "Pergunta": "Em que ano foi implantada a República em Protugal",
+        "Resposta": ["0-1910", "1-1926", "2-1890", "3-1905"],
+        "Correta": 0,
+        "Dificuldade": "Difícil"
     },
     {
-        "Pergunta" : "A meiose contribui para:",
-        "Respostas" : ["Crescimento", "Reparação", "Variabilidade genética", "Digestão"],
-        "Correta" : 2,
-        "Dificuldade" : "Difícil"
+        "Pergunta": "A meiose contribui para:",
+        "Resposta": ["0-Crescimento", "1-Reparação", "2-Variabilidade genética", "3-Digestão"],
+        "Correta": 2,
+        "Dificuldade": "Difícil"
     },
     {
-        "Pergunta" : "O Tratado de Tordesilhas foi assinado em:",
-        "Respostas" : ["1492", "1494", "1500", "1510"],
-        "Correta" : 1,
-        "Dificuldade" : "Difícil"
+        "Pergunta": "O Tratado de Tordesilhas foi assinado em:",
+        "Resposta": ["0-1492", "1-1494", "2-1500", "3-1510"],
+        "Correta": 1,
+        "Dificuldade": "Difícil"
     },
     {
-        "Pergunta" : "A dilaração do tempo ocorre segundo:",
-        "Respostas" : ["Lei da Gravidade", "Relatividade Restrita", "Termodinâmica", "Eletromagnetismo"],
-        "Correta" : 1,
-        "Dificuldade" : "Difícil"
+        "Pergunta": "A dilaração do tempo ocorre segundo:",
+        "Resposta": ["0-Lei da Gravidade", "1-Relatividade Restrita", "2-Termodinâmica", "3-Eletromagnetismo"],
+        "Correta": 1,
+        "Dificuldade": "Difícil"
     },
     {
-        "Pergunta" : "O Barroco caracteriza-se por:",
-        "Respostas" : ["Simplicidade extrema", "Excesso ornamental", "Minimalismo", "Abstração geométrica"],
-        "Correta" : 1,
-        "Dificuldade" : "Difícil"
+        "Pergunta": "O Barroco caracteriza-se por:",
+        "Resposta": ["0-Simplicidade extrema", "1-Excesso ornamental", "2-Minimalismo", "3-Abstração geométrica"],
+        "Correta": 1,
+        "Dificuldade": "Difícil"
     },
     {
-        "Pergunta" : "Feedback negativo hormonal significa:",
-        "Respostas" : ["Estímulo continuo", "bloqueio dad produção após excesso", "Produção aleatoria", "Ausênsia de controlo"],
-        "Correta" : 1,
-        "Dificuldade" : "Difícil"
+        "Pergunta": "Feedback negativo hormonal significa:",
+        "Resposta": ["0-Estímulo continuo", "1-bloqueio dad produção após excesso", "2-Produção aleatoria", "3-Ausênsia de controlo"],
+        "Correta": 1,
+        "Dificuldade": "Difícil"
     },
     {
-        "Pergunta" : "A Revolução Industrial iniciou-se em:",
-        "Respostas" : ["França", "Alemanha", "Inglaterra", "Itália"],
-        "Correta" : 2,
-        "Dificuldade" : "Difícil"
+        "Pergunta": "A Revolução Industrial iniciou-se em:",
+        "Resposta": ["0-França", "1-Alemanha", "2-Inglaterra", "3-Itália"],
+        "Correta": 2,
+        "Dificuldade": "Difícil"
     },
     {
-        "Pergunta" : "O príncipe foi escrito por:",
-        "Respostas" : ["hobbit", "Loki", "Maquiavel", "Rousseau"],
-        "Correta" : 2,
-        "Dificuldade" : "Difícil"
+        "Pergunta": "O príncipe foi escrito por:",
+        "Resposta": ["0-hobbit", "1-Loki", "2-Maquiavel", "3-Rousseau"],
+        "Correta": 2,
+        "Dificuldade": "Difícil"
     },
     {
-        "Pergunta" : "A separação de poderes foi defendida por:",
-        "Respostas" : ["Voltaire", "Montesquieu", "Marx", "Kant"],
-        "Correta" : 1,
-        "Dificuldade" : "Difícil"
+        "Pergunta": "A separação de poderes foi defendida por:",
+        "Resposta": ["0-Voltaire", "1-Montesquieu", "2-Marx", "3-Kant"],
+        "Correta": 1,
+        "Dificuldade": "Difícil"
     },
     {
-        "Pergunta" : "O 25 de Abril de 74 ocorreu em:",
-        "Respostas" : ["1926", "1961", "1974", "1986"],
-        "Correta" : 2,
-        "Dificuldade" : "Difícil"
+        "Pergunta": "O 25 de Abril de 74 ocorreu em:",
+        "Resposta": ["0-1926", "1-1961", "2-1974", "3-1986"],
+        "Correta": 2,
+        "Dificuldade": "Difícil"
     },
     {
-        "Pergunta" : "Os rins regulam:",
-        "Respostas" : ["Visão", "Pressão arterial", "Audição", "Movimento"],
-        "Correta" : 1,
-        "Dificuldade" : "Difícil"
+        "Pergunta": "Os rins regulam:",
+        "Resposta": ["0-Visão", "1-Pressão arterial", "2-Audição", "3-Movimento"],
+        "Correta": 1,
+        "Dificuldade": "Difícil"
     },
     {
-        "Pergunta" : "Biodiversidade inclui diversidade:",
-        "Respostas" : ["Apenas animal", "Apenas vegetal", "Genética, espécies e ecossistemas", "Climática"],
-        "Correta" : 2,
-        "Dificuldade" : "Difícil"
+        "Pergunta": "Biodiversidade inclui diversidade:",
+        "Resposta": ["0-Apenas animal", "1-Apenas vegetal", "2-Genética, espécies e ecossistemas", "3-Climática"],
+        "Correta": 2,
+        "Dificuldade": "Difícil"
     },
     {
-        "Pergunta" : "O Estado Novo terminou com:",
-        "Respostas" : ["Golpe militar de 1926", "Revolução dos Cravos", "Entrada na UE", "Tratado de Lisboa"],
-        "Correta" : 1,
-        "Dificuldade" : "Difícil"
+        "Pergunta": "O Estado Novo terminou com:",
+        "Resposta": ["0-Golpe militar de 1926", "1-Revolução dos Cravos", "2-Entrada na UE", "3-Tratado de Lisboa"],
+        "Correta": 1,
+        "Dificuldade": "Difícil"
     },
     {
-        "Pergunta" : "A teoria dad relatividade foi proposta por:",
-        "Respostas" : ["Newton", "Einstein", "Galileo", "Planck"],
-        "Correta" : 1,
-        "Dificuldade" : "Difícil"
+        "Pergunta": "A teoria dad relatividade foi proposta por:",
+        "Resposta": ["0-Newton", "1-Einstein", "2-Galileo", "3-Planck"],
+        "Correta": 1,
+        "Dificuldade": "Difícil"
     },
     {
-        "Pergunta" : "O Banco Central Europeu tem como principal objetivo:",
-        "Respostas" : ["Aumentar impostos", "Controlar a inflação", "Regular eleições", "Financiar guerras"],
-        "Correta" : 1,
-        "Dificuldade" : "Difícil"
+        "Pergunta": "O Banco Central Europeu tem como principal objetivo:",
+        "Resposta": ["0-Aumentar impostos", "1-Controlar a inflação", "2-Regular eleições", "3-Financiar guerras"],
+        "Correta": 1,
+        "Dificuldade": "Difícil"
     },
     {
-        "Pergunta" : "Qual é o elemento químico com o símbolo W?",
-        "Respostas" : ["Tungsténio", "Titânio", "Tântalo", "Vanádio"],
-        "Correta" : 0,
-        "Dificuldade" : "Difícil"
+        "Pergunta": "Qual é o elemento químico com o símbolo W?",
+        "Resposta": ["0-Tungsténio", "1-Titânio", "2-Tântalo", "3-Vanádio"],
+        "Correta": 0,
+        "Dificuldade": "Difícil"
     }
 ]
