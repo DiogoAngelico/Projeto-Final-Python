@@ -11,4 +11,4 @@ def dar_pontos(Dificuldade):
         return 3
     
 def pontos_so(a, s):
-    #\\\\
+    pontos=0
