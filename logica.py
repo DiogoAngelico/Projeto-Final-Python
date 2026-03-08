@@ -88,3 +88,8 @@ def logicadificil():
     print(f"Parabens!!! acertaste {acertou}/20")
     print(f"Mas erraste {errou}")
     print(f"tiveste {pontos} pontos!")
+
+
+logicafacil()
+logicamedia()
+logicadificil()
