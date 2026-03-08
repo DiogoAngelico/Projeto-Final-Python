@@ -1,5 +1,5 @@
 import json
-
+from logica import logicafacil,logicadificil,logicamedia
 
 def menu(x):
     print("----------------------------")
@@ -19,11 +19,14 @@ def menu_1():
         print("-----  2-> Médio       -----")
         print("-----  67-> Díficil     -----")    
         print("----------------------------")
-        x=input("qual a dificuldade que deseja?")
-        '''
-        while True:
-            op2=
-        '''      
+        op_3=input("qual a dificuldade que deseja?")
+        if op_3=="1":
+             logicafacil()
+        elif op_3=="2":
+             logicamedia()
+        elif op_3=="67":
+             logicadificil()
+        
         
 
 def menu_2():
@@ -41,13 +44,11 @@ def menu_2():
             print("-----                                                           -----")
             print("-----                                                           -----")
             print("---------------------------------------------------------------------")
-            input("-------------- | clique enter para continuar: | --------------")
+            x=input("-------------- | clique enter para continuar: | --------------")
             if x== "":
                  break
 
 
-
-print("Totos")
 
 x=input("qual teu user: ")
 while True:
@@ -57,6 +58,7 @@ while True:
     elif op=="2":
         op_2=menu_2()
     elif op=="3":
-         print("foi um prazer ter você aqui presente no Word Quiz")
-         break
+        print("foi um prazer ter você aqui presente no Word Quiz")
+        break
+ 
  
