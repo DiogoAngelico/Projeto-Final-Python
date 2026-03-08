@@ -19,8 +19,12 @@ def menu_1():
         print("-----  2-> Médio       -----")
         print("-----  67-> Díficil     -----")    
         print("----------------------------")
-        op_3=input("qual a dificuldade que deseja?")
-             
+        x=input("qual a dificuldade que deseja?")
+        '''
+        while True:
+            op2=
+        '''      
+        
 
 def menu_2():
         while True:
@@ -37,9 +41,13 @@ def menu_2():
             print("-----                                                           -----")
             print("-----                                                           -----")
             print("---------------------------------------------------------------------")
-            x=input("-------------- | clique enter para continuar: | --------------")
+            input("-------------- | clique enter para continuar: | --------------")
             if x== "":
                  break
+
+
+
+print("Totos")
 
 x=input("qual teu user: ")
 while True:
