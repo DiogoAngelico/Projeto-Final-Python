@@ -39,7 +39,7 @@ def menu_1():
             final=input("qual opção queres???:")
             while algo:
                 if final=="":
-                    logicafacil()
+                    logicamedia()
                 if final=="retornar":
                     menu_1()
                 if final=="sair":
@@ -51,7 +51,7 @@ def menu_1():
             final=input("qual opção queres???:")
             while algo:
                 if final=="":
-                    logicafacil()
+                    logicadificil()
                 if final=="retornar":
                     menu_1()
                 if final=="sair":
