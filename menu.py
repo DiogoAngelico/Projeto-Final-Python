@@ -23,7 +23,7 @@ def menu_1():
         if op_3=="1":
             logicafacil()
             print("agora,tens 3 opções,pressionar enter para reiniciar neste modo, escreva retornar para retornar para as dificudades,  ")
-            input("e escreve sair para acabar com o jogo")
+            input("e escreve sair para sair do jogo")
             final=input("qual opção queres???:")
             while algo:
                 if final=="":

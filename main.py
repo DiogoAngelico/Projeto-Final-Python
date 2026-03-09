@@ -12,4 +12,5 @@ while True:
     elif op=="3":
         print("foi um prazer ter você aqui presente no Word Quiz")
         break
+    break
     
