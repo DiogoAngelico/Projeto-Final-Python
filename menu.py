@@ -1,5 +1,6 @@
 import json
 from logica import logicafacil,logicadificil,logicamedia
+algo=True
 
 def menu(x):
     print("----------------------------")
@@ -11,7 +12,6 @@ def menu(x):
     op = input("Qual a sua escolha?")
     return op
 
-
 def menu_1():
         print("----------------------------")
         print("-----  DIFICULDADES    -----")
@@ -21,14 +21,45 @@ def menu_1():
         print("----------------------------")
         op_3=input("qual a dificuldade que deseja?")
         if op_3=="1":
-             logicafacil()
+            logicafacil()
+            print("agora,tens 3 opções,pressionar enter para reiniciar neste modo, escreva retornar para retornar para as dificudades,  ")
+            input("e escreve sair para acabar com o jogo")
+            final=input("qual opção queres???:")
+            while algo:
+                if final=="":
+                    logicafacil()
+                if final=="retornar":
+                    menu_1()
+                if final=="sair":
+                    break
         elif op_3=="2":
-             logicamedia()
+            logicamedia()
+            print("agora,tens 3 opções,pressionar enter para reiniciar neste modo, escreva retornar para retornar para as dificudades,  ")
+            input("e escreve sair para acabar com o jogo")
+            final=input("qual opção queres???:")
+            while algo:
+                if final=="":
+                    logicafacil()
+                if final=="retornar":
+                    menu_1()
+                if final=="sair":
+                    break
         elif op_3=="67":
-             logicadificil()
+            logicadificil()
+            print("agora,tens 3 opções,pressionar enter para reiniciar neste modo, escreva retornar para retornar para as dificudades,  ")
+            input("e escreve sair para acabar com o jogo")
+            final=input("qual opção queres???:")
+            while algo:
+                if final=="":
+                    logicafacil()
+                if final=="retornar":
+                    menu_1()
+                if final=="sair":
+                    break 
+        return 
+       
         
-        
-
+    
 def menu_2():
         while True:
             print("---------------------------------------------------------------------")
@@ -48,17 +79,5 @@ def menu_2():
             if x== "":
                  break
 
-
-
-x=input("qual teu user: ")
-while True:
-    op=menu(x)
-    if op=="1":
-        op_1=menu_1()
-    elif op=="2":
-        op_2=menu_2()
-    elif op=="3":
-        print("foi um prazer ter você aqui presente no Word Quiz")
-        break
  
  
