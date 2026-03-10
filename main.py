@@ -1,5 +1,5 @@
 import json
-from menu import menu,menu_1,menu_2
+from menu import menu,menu_1,menu_2,algo
 
 
 x=input("qual teu user: ")
@@ -12,5 +12,6 @@ while True:
     elif op=="3":
         print("foi um prazer ter você aqui presente no Word Quiz")
         break
+    if algo==False:
+        break
     break
-    

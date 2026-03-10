@@ -28,6 +28,7 @@ def menu_1():
             while algo:
                 if final=="":
                     logicafacil()
+                    break
                 if final=="retornar":
                     menu_1()
                 if final=="sair":
@@ -56,7 +57,7 @@ def menu_1():
                     menu_1()
                 if final=="sair":
                     break 
-        return 
+
        
         
     
