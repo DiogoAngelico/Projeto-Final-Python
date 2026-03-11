@@ -1,15 +1,17 @@
 import json
 
-
-def menu(x):
-    print("----------------------------")
-    print(f"    BEM VINDO!!! {x} ")
-    print("-----     1 Jogar      -----")
-    print("-----     2 regras     -----")
-    print("-----     3 sair       -----")    
-    print("----------------------------")
-    op = input("Qual a sua escolha?")
-    return op
+try:
+    def menu(x):
+        print("----------------------------")
+        print(f"    BEM VINDO!!! {x} ")
+        print("-----     1 Jogar      -----")
+        print("-----     2 regras     -----")
+        print("-----     3 sair       -----")    
+        print("----------------------------")
+        op = input("Qual a sua escolha?")
+        return op
+except:
+     print("Ocorreu um erro, por favor reinicie o jogo")
 
 
 def menu_1():
