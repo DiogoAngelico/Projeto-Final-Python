@@ -36,8 +36,9 @@ def menu_1():
                         break
         except SyntaxError:
             print("Valor não pode ser inserido")
-        try    
-            elif op_3=="2":
+        
+        try:    
+            if op_3=="2":
                 logicamedia()
                 print("agora,tens 3 opções,pressionar enter para reiniciar neste modo, escreva retornar para retornar para as dificudades,  ")
                 input("e escreve sair para acabar com o jogo")
@@ -49,8 +50,11 @@ def menu_1():
                         menu_1()
                     if final=="sair":
                         break
+        except SyntaxError:
+            print("Valor não pode ser inserido")
+        
         try:    
-            elif op_3=="67":
+            if op_3=="67":
                 logicadificil()
                 print("agora,tens 3 opções,pressionar enter para reiniciar neste modo, escreva retornar para retornar para as dificudades,  ")
                 input("e escreve sair para acabar com o jogo")
@@ -62,7 +66,8 @@ def menu_1():
                         menu_1()
                     if final=="sair":
                         break 
-
+        except SyntaxError:
+            print("Valor não pode ser inserido")
        
         
     
