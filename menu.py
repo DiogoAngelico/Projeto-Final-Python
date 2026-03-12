@@ -17,7 +17,7 @@ def menu_1():
         print("-----  DIFICULDADES    -----")
         print("-----  1-> Fácil       -----")
         print("-----  2-> Médio       -----")
-        print("-----  67-> Díficil     -----")    
+        print("-----  3-> Díficil     -----")    
         print("----------------------------")
         op_3=input("qual a dificuldade que deseja?")
         try:
@@ -54,7 +54,7 @@ def menu_1():
             print("Valor não pode ser inserido")
         
         try:    
-            if op_3=="67":
+            if op_3=="3":
                 logicadificil()
                 print("agora,tens 3 opções,pressionar enter para reiniciar neste modo, escreva retornar para retornar para as dificudades,  ")
                 input("e escreve sair para acabar com o jogo")
