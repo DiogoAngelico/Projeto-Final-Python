@@ -2,32 +2,41 @@ import json
 from lerperguntas import perguntadificil,perguntafacil,perguntamedia
 from pathlib import Path
 BASE_DIR=Path(__file__).resolve().parent
+from random import choice
+
 
 try:    
     def logicafacil():
+        variavel=0
         errou=0
         acertou=0
         pontos=0
         perguntas=perguntafacil()
-        for dic in perguntas:
-            print("---------------------------------------------------------------")
-            print(dic['Pergunta'])
-            print("---------------------------------------------------------------")
-            for i in dic["Resposta"]:
-                print(i)
-            x=input("qual a resposta certa????????:")
-            for u in dic["Correta"]:
-                if x==u:
-                    input("e tuuuu...............................")
-                    input("ACERTASTE!!!!!!!!!!1")
-                    acertou+=1
-                    pontos+=2
-                else:
-                    input("e tuuuu...............................")
-                    input("erraste parabens!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! QUANDO PENSAVA QUE O ADEVERSARIO IAS SER TU")
-                    errou+=1
+        while variavel<10:
+            for dic in perguntas:
+                print("---------------------------------------------------------------")
+                print((dic['Pergunta']))
+                print("---------------------------------------------------------------")
+                for i in dic["Resposta"]:
+                    print(i)
+                x=input("qual a resposta certa????????:")
+                for u in dic["Correta"]:
+                    if x==u:
+                        input("e tuuuu...............................")
+                        input("ACERTASTE!!!!!!!!!!1")
+                        acertou+=1
+                        pontos+=2
+                        variavel+=1
+                    else:
+                        input("e tuuuu...............................")
+                        input("erraste parabens!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! QUANDO PENSAVA QUE O ADEVERSARIO IAS SER TU")
+                        errou+=1
+                        variavel+=1
+                if variavel==10:
+                    break
+                
             print("-----------------------------------------------------------------------------")
-        print(f"-------------------------Parabens!!! acertaste {acertou}/20---------------------")
+        print(f"-------------------------Parabens!!! acertaste {acertou}/10---------------------")
         print(f"-------------------------Mas erraste {errou}------------------------------------")
         print(f"-------------------------tiveste {pontos} pontos--------------------------------")
         print("---------------------------------------------------------------------------------")
