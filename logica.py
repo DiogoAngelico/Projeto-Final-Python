@@ -2,7 +2,7 @@ import json
 from lerperguntas import perguntadificil,perguntafacil,perguntamedia
 from pathlib import Path
 BASE_DIR=Path(__file__).resolve().parent
-from random import choice
+import random
 
 
 try:    
@@ -15,7 +15,7 @@ try:
         while variavel<10:
             for dic in perguntas:
                 print("---------------------------------------------------------------")
-                print((dic['Pergunta']))
+                print(dic['Pergunta'])
                 print("---------------------------------------------------------------")
                 for i in dic["Resposta"]:
                     print(i)
