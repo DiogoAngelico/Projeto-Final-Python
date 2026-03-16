@@ -8,7 +8,7 @@ try:
     def perguntafacil():
         listaaleatoria=[]
         x=0
-        with (BASE_DIR / "dificil.json").open("r",encoding="utf-8") as f:
+        with (BASE_DIR / "facil.json").open("r",encoding="utf-8") as f:
             perguntas=json.load(f)
         while x<10:
             pergunta_random=random.choice(perguntas)
@@ -26,7 +26,7 @@ try:
     def perguntamedia():
         listaaleatoria=[]
         x=0
-        with (BASE_DIR / "dificil.json").open("r",encoding="utf-8") as f:
+        with (BASE_DIR / "medio.json").open("r",encoding="utf-8") as f:
             perguntas=json.load(f)
         while x<10:
             pergunta_random=random.choice(perguntas)
