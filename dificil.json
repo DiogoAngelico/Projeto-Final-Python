@@ -18,13 +18,13 @@
         "Dificuldade": "Difícil"
     },
     {
-        "Pergunta": "País do Sol Nascente",
+        "Pergunta": "Qual é o país conhecido como a nação do Sol Nascente:",
         "Resposta": ["0-China", "1-Coreia do sul", "2-Japão", "3-Tailândia"],
         "Correta": "2",
         "Dificuldade": "Difícil"
     },
     {
-        "Pergunta": "Em que ano foi implantada a República em Protugal",
+        "Pergunta": "Em que ano foi implantada a República em Protugal?:",
         "Resposta": ["0-1910", "1-1926", "2-1890", "3-1905"],
         "Correta": "0",
         "Dificuldade": "Difícil"
@@ -66,7 +66,7 @@
         "Dificuldade": "Difícil"
     },
     {
-        "Pergunta": "O 'Príncipe' foi escrito por:",
+        "Pergunta": "O livro 'Príncipe' foi escrito por?:",
         "Resposta": ["0-hobbit", "1-Loki", "2-Maquiavel", "3-Rousseau"],
         "Correta": "2",
         "Dificuldade": "Difícil"
@@ -90,7 +90,7 @@
         "Dificuldade": "Difícil"
     },
     {
-        "Pergunta": "Biodiversidade inclui diversidade:",
+        "Pergunta": "A biodiversidade inclui uma diversidade?:",
         "Resposta": ["0-Apenas animal", "1-Apenas vegetal", "2-Genética, espécies e ecossistemas", "3-Climática"],
         "Correta": "2",
         "Dificuldade": "Difícil"
@@ -102,7 +102,7 @@
         "Dificuldade": "Difícil"
     },
     {
-        "Pergunta": "A teoria dad relatividade foi proposta por:",
+        "Pergunta": "A teoria da relatividade foi proposta por quem?:",
         "Resposta": ["0-Newton", "1-Einstein", "2-Galileo", "3-Planck"],
         "Correta": "1",
         "Dificuldade": "Difícil"
@@ -114,7 +114,7 @@
         "Dificuldade": "Difícil"
     },
     {
-        "Pergunta": "Qual é o elemento químico com o símbolo W?",
+        "Pergunta": "Qual é o elemento químico com o símbolo W?:",
         "Resposta": ["0-Tungsténio", "1-Titânio", "2-Tântalo", "3-Vanádio"],
         "Correta": "0",
         "Dificuldade": "Difícil"

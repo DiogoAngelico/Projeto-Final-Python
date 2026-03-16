@@ -1,108 +1,108 @@
 [
     {
-        "Pergunta": "Qual é a capital de Portugal",
+        "Pergunta": "Qual é a capital de Portugal?:",
         "Resposta": ["0-Porto", "1-Lisboa", "2-Coimbra", "3-Faro"],
         "Correta": "1",
         "Dificuldade": "Fácil"
     },
     {
-        "Pergunta": "Qual foi o ano do teste termonuclear mais forte dos Estados Unidos?",
+        "Pergunta": "Qual foi o ano do teste termonuclear mais forte dos Estados Unidos?:",
         "Resposta": ["0-1992", "1-1999", "2-1954", "3-1961"],
         "Correta": "2",
         "Dificuldade": "Fácil"
     },
     {
-        "Pergunta": "Qual é o maior planeta do Sistena Solar?",
+        "Pergunta": "Qual é o maior planeta do Sistena Solar?:",
         "Resposta": ["0-Terra", "1-Saturno", "2-Júpiter", "3-Marte"],
         "Correta": "2",
         "Dificuldade": "Fácil"
     },
     {
-        "Pergunta": "Quem pintou a Mona Lisa?",
+        "Pergunta": "Quem pintou a Mona Lisa?:",
         "Resposta": ["0-Michelangelo", "1-Leonardo da Vinci", "2-Rafael", "3-Van Gogh"],
         "Correta": "1",
         "Dificuldade": "Fácil"
     },
     {
-        "Pergunta": "Qual é o oceano que banha Portugal?",
-        "Resposta": ["0-Pacífico", "1-Índico", "2-Ártico", "3-Atlântico"],
+        "Pergunta": "Qual é o oceano que banha Portugal?:",
+        "Resposta": ["0-Pacífico", "1-Mediterraneo", "2-Ártico", "3-Atlântico"],
         "Correta": "3",
         "Dificuldade": "Fácil"
     },
     {
-        "Pergunta": "Qual é a moeda oficial de Portugal?",
+        "Pergunta": "Qual é a moeda oficial de Portugal?:",
         "Resposta": ["0-Dólar", "1-Euro", "2-Libra", "3-Franco"],
         "Correta": "1",
         "Dificuldade": "Fácil"
     },
     {
-        "Pergunta": "Quem escreveu os Lusíadas",
+        "Pergunta": "Quem escreveu os Lusíadas?:",
         "Resposta": ["0-Fernando Pessoa", "1-Eça de Queirós", "2-Luís de Camôes", "3-Almeida Garrett"],
         "Correta": "2",
         "Dificuldade": "Fácil"
     },
     {
-        "Pergunta": "Qual é a fórmula química da água?",
+        "Pergunta": "Qual é a fórmula química da água?:",
         "Resposta": ["0-CO₂", "1-O₂", "2-H₂O", "3-H₂SO₄"],
         "Correta": "2",
         "Dificuldade": "Fácil"
     },
     {
-        "Pergunta": "Quantos lados tem um triângulo?",
+        "Pergunta": "Quantos lados tem um triângulo equilátero?:",
         "Resposta": ["0-4", "1-5", "2-2", "3-3"],
         "Correta": "3",
         "Dificuldade": "Fácil"
     },
     {
-        "Pergunta": "Qual é o maior mamífero do mundo?",
+        "Pergunta": "Qual é o maior mamífero do mundo?:",
         "Resposta": ["0-Elefante", "1-Baleia-azul", "2-Rinoceronte", "3-Tubarão"],
         "Correta": "1",
         "Dificuldade": "Fácil"
     },
     {
-        "Pergunta": "Qual é a idioma oficial de Portugal?",
+        "Pergunta": "Qual é a idioma oficial de Portugal?:",
         "Resposta": ["0-Espanhol", "1-francês", "2-Português", "3-Galego"],
         "Correta": "2",
         "Dificuldade": "Fácil"
     },
     {
-        "Pergunta": "Em que país fica a Torre Eiffel?",
+        "Pergunta": "Em que país fica a Torre Eiffel?:",
         "Resposta": ["0-Itália", "1-França", "2-Bélgica", "3-Alemanha"],
         "Correta": "1",
         "Dificuldade": "Fácil"
     },
     {
-        "Pergunta": "Qual o gás as plantas absorvem?",
+        "Pergunta": "Qual o gás as plantas absorvem?:",
         "Resposta": ["0-Oxigénio", "1-Hidrogénio", "2-Dióxido de carbono", "3-Azoto"],
         "Correta": "2",
         "Dificuldade": "Fácil"
     },
     {
-        "Pergunta": "Quantos continentes existem?",
+        "Pergunta": "Quantos continentes existem no mundo?:",
         "Resposta": ["0-5", "1-6", "2-7", "3-8"],
         "Correta": "2",
         "Dificuldade": "Fácil"
     },
     {
-        "Pergunta": "Qual é a capital de Espanha?",
+        "Pergunta": "Qual é a capital da Espanha?:",
         "Resposta": ["0-Barcelona", "1-Madrid", "2-Sevilha", "3-Valência"],
         "Correta": "1",
         "Dificuldade": "Fácil"
     },
     {
-        "Pergunta": "Qual é a cor resultante da mistura de azul e amarelo?",
+        "Pergunta": "Qual é a cor que resulta da mistura das cores azul e amarelo?:",
         "Resposta": ["0-Verde", "1-Roxo", "2-Laranja", "3-Castanho"],
         "Correta": "0",
         "Dificuldade": "Fácil"
     },
     {
-        "Pergunta": "Fórmula do dióxido de carbono:",
+        "Pergunta": "Qual a fórmula do dióxido de carbono?:",
         "Resposta": ["0-CO", "1-CO₂", "2-C₂O", "3-O₂C"],
         "Correta": "1",
         "Dificuldade": "Fácil"
     },
     {
-        "Pergunta": "O coração pertence a que sistema?",
+        "Pergunta": "O coração pertence a que sistema do corpo humano?:",
         "Resposta": ["0-Digestivo", "1-Nervoso", "2-Circulatório", "3-Repiratório"],
         "Correta": "2",
         "Dificuldade": "Fácil"

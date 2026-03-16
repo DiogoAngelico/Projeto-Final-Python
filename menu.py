@@ -4,7 +4,7 @@ algo=True
 
 def menu(x):
     print("----------------------------")
-    print(f"    Bem vindo ao quiz, {x} ")
+    print(f"    Bem vindo ao Word Quiz, {x} ")
     print("-----     1 Jogar      -----")
     print("-----     2 regras     -----")
     print("-----     3 sair       -----")    
@@ -86,7 +86,7 @@ def menu_2():
             print("-----                                                           -----")
             print("-----                                                           -----")
             print("---------------------------------------------------------------------")
-            x=input("-------------- | clique enter para continuar: | --------------")
+            x=input("-------------- | Aperte enter para sair: | --------------")
             if x== "":
                  break
 

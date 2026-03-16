@@ -1,60 +1,60 @@
 [
     {
-        "Pergunta": "Quem foi o primeiro homem a pisar na lua?",
+        "Pergunta": "Quem foi o primeiro homem a pisar na lua?:",
         "Resposta": ["0-Yuri Gagarin", "1-Buzz Lightyear", "2-Neil Armstrong", "3-Michael collins"],
         "Correta": "2",
         "Dificuldade": "Médio"
     },
     {
-        "Pergunta": "Quantos distritos tem Portugal continental?",
+        "Pergunta": "Quantos distritos tem Portugal continental?:",
         "Resposta": ["0-16", "1-18", "2-20", "3-22"],
         "Correta": "1",
         "Dificuldade": "Médio"
     },
     {
-        "Pergunta": "Qual é o rio mais extenso da Península Ibérica?",
+        "Pergunta": "Qual é o rio mais extenso da Península Ibérica?:",
         "Resposta": ["0-Douro", "1-Tejo", "2-Guadiana", "3-Ebro"],
         "Correta": "1",
         "Dificuldade": "Médio"
     },
     {
-        "Pergunta": "O que significa ONU?",
+        "Pergunta": "O que significa a sigla ONU?:",
         "Resposta": ["0-Organização Nacional Unida", "1-Ordem das Nações Unidas", "2-Organização das Nações Unidas", "3-Organização Nuclear Universal"],
         "Correta": "2",
         "Dificuldade": "Médio"
     },
     {
-        "Pergunta": "Qual é o elemento químico Fe",
+        "Pergunta": "Qual é o elemento químico Fe?:",
         "Resposta": ["0-Flúor", "1-Ferro", "2-Fósforo", "3-Frâncio"],
         "Correta": "1",
         "Dificuldade": "Médio"
     },
     {
-        "Pergunta": "Capital da Austrália:",
+        "Pergunta": "Qual é a capital da Austrália?:",
         "Resposta": ["0-Sydney", "1-Melbourne", "2-Canberra", "3-Perth"],
         "Correta": "2",
         "Dificuldade": "Médio"
     },
     {
-        "Pergunta": "Ano da chegada do homem à Lua:",
+        "Pergunta": "Qual foi o ano em que o homem chegou há lua?:",
         "Resposta": ["0-1965", "1-1969", "2-1972", "3-1959"],
         "Correta": "1",
         "Dificuldade": "Médio"
     },
     {
-        "Pergunta": "Maior deserto do mundo:",
+        "Pergunta": "Qual o maior deserto do mundo?:",
         "Resposta": ["0-Saara", "1-Antártica", "2-Gobi", "3-Kalahari"],
         "Correta": "1",
         "Dificuldade": "Médio"
     },
     {
-        "Pergunta": "Montanha mais alta de Portugal continental:",
+        "Pergunta": "Qual é a montanha mais alta de Portugal continental?:",
         "Resposta": ["0-Serrs da Estrela", "1-Pico", "2-Gerês", "3-Marão"],
         "Correta": "0",
         "Dificuldade": "Médio"
     },
     {
-        "Pergunta": "Qual o maior arquipélago portugêus",
+        "Pergunta": "Qual é o maior arquipélago português?:",
         "Resposta": ["0-Berlengas", "1-Açores", "2-Madeira", "3-Selvagens"],
         "Correta": "1",
         "Dificuldade": "Médio"
@@ -73,7 +73,7 @@
     },
     {
         "Pergunta": "O PIB mede:",
-        "Resposta": ["0-Felicidade média", "1-Produção económica", "2-Taxa de natalidade", "3-Dívina externa"],
+        "Resposta": ["0-Felicidade média", "1-Produção económica", "2-Taxa de natalidade", "3-Dívida externa"],
         "Correta": "1",
         "Dificuldade": "Médio"
     },
@@ -84,37 +84,37 @@
         "Dificuldade": "Médio"
     },
     {
-        "Pergunta": "Os Himalaias formaram-se por:",
-        "Resposta": ["0-Erosão", "1-Vulcanismo oceânicas", "2-Colisão de placas", "3-Furacões"],
+        "Pergunta": "Os Himalaias formaram-se através:",
+        "Resposta": ["0-Da erosão", "1-Do vulcanismo oceânico", "2-Da colisão de placas", "3-De furacões"],
         "Correta": "2",
         "Dificuldade": "Médio"
     },
     {
-        "Pergunta": "Energias renováveis incluem",
+        "Pergunta": "As energias renováveis incluem:",
         "Resposta": ["0-Carvão", "1-Petróleo", "2-Solar", "3-Gás natural"],
         "Correta": "2",
         "Dificuldade": "Médio"
     },
     {
-        "Pergunta": "Em que ano caiu o Muro de Berlim?",
+        "Pergunta": "Em que ano caiu o Muro de Berlim?:",
         "Resposta": ["0-1987", "1-1989", "2-1991", "3-1993"],
         "Correta": "1",
         "Dificuldade": "Médio"
     },
     {
-        "Pergunta": "Qual destes países não fez parte do G7",
+        "Pergunta": "Qual destes países não fez parte do G7?:",
         "Resposta": ["0-Canadá", "1-Japão", "2-Rússia", "3-Itália"],
         "Correta": "2",
         "Dificuldade": "Médio"
     },
     {
-        "Pergunta": "Em que continente se situa o país do Suriname",
+        "Pergunta": "Em que continente se situa o país do Suriname?:",
         "Resposta": ["0-África", "1-Ásia", "2-América do Sul", "3-América Central"],
         "Correta": "2",
         "Dificuldade": "Médio"
     },
     {
-        "Pergunta": "Quem pintou o teto da Capela Sistina",
+        "Pergunta": "Quem pintou o teto da Capela Sistina?:",
         "Resposta": ["0-Leonardo da Vinci", "1-Rafael", "2-Michelangelo", "3-Donatello"],
         "Correta": "2",
         "Dificuldade": "Médio"
