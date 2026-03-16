@@ -66,7 +66,7 @@
         "Dificuldade": "Difícil"
     },
     {
-        "Pergunta": "O príncipe foi escrito por:",
+        "Pergunta": "O 'Príncipe' foi escrito por:",
         "Resposta": ["0-hobbit", "1-Loki", "2-Maquiavel", "3-Rousseau"],
         "Correta": "2",
         "Dificuldade": "Difícil"

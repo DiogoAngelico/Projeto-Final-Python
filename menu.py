@@ -4,28 +4,28 @@ algo=True
 
 def menu(x):
     print("----------------------------")
-    print(f"    BEM VINDO!!! {x} ")
+    print(f"    Bem vindo ao quiz, {x} ")
     print("-----     1 Jogar      -----")
     print("-----     2 regras     -----")
     print("-----     3 sair       -----")    
     print("----------------------------")
-    op = input("Qual a sua escolha?")
+    op = input(f"Qual opção deseja escolher,{x}?:")
     return op
 
 def menu_1():
         print("----------------------------")
-        print("-----  DIFICULDADES    -----")
+        print("-----  Dificuldades    -----")
         print("-----  1-> Fácil       -----")
         print("-----  2-> Médio       -----")
         print("-----  3-> Díficil     -----")    
         print("----------------------------")
-        op_3=input("qual a dificuldade que deseja?")
+        op_3=input("Qual a dificuldade que deseja jogar?:")
         try:
             if op_3=="1":
                 logicafacil()
-                print("agora,tens 3 opções,pressionar enter para reiniciar neste modo, escreva retornar para retornar para as dificudades,  ")
-                input("e escreve sair para sair do jogo")
-                final=input("qual opção queres???:")
+                print("Agora,tens 3 opções,pressionar enter para reiniciar neste modo, escreva retornar para retornar para as dificudades,  ")
+                input("E escreve sair para sair do jogo")
+                final=input("Qual opção gostarias de escolher:")
                 while algo:
                     if final=="":
                         logicafacil()
@@ -40,9 +40,9 @@ def menu_1():
         try:    
             if op_3=="2":
                 logicamedia()
-                print("agora,tens 3 opções,pressionar enter para reiniciar neste modo, escreva retornar para retornar para as dificudades,  ")
-                input("e escreve sair para acabar com o jogo")
-                final=input("qual opção queres???:")
+                print("Agora,tens 3 opções,pressionar enter para reiniciar neste modo, escreva retornar para retornar para as dificudades,  ")
+                input("E escreve sair para acabar com o jogo")
+                final=input("Qual opção gostaria de escolher?:")
                 while algo:
                     if final=="":
                         logicamedia()
@@ -56,9 +56,9 @@ def menu_1():
         try:    
             if op_3=="3":
                 logicadificil()
-                print("agora,tens 3 opções,pressionar enter para reiniciar neste modo, escreva retornar para retornar para as dificudades,  ")
-                input("e escreve sair para acabar com o jogo")
-                final=input("qual opção queres???:")
+                print("Agora,tens 3 opções,pressionar enter para reiniciar neste modo, escreva retornar para retornar para as dificudades,  ")
+                input("E escreve sair para acabar com o jogo")
+                final=input("Qual opção gostaria de escolher?:")
                 while algo:
                     if final=="":
                         logicadificil()

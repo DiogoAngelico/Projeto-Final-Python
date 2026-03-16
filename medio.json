@@ -12,13 +12,13 @@
         "Dificuldade": "Médio"
     },
     {
-        "Pergunta": "Quem é o rio mais extenso da Península Ibérica?",
+        "Pergunta": "Qual é o rio mais extenso da Península Ibérica?",
         "Resposta": ["0-Douro", "1-Tejo", "2-Guadiana", "3-Ebro"],
         "Correta": "1",
         "Dificuldade": "Médio"
     },
     {
-        "Pergunta": "o que significa ONU?",
+        "Pergunta": "O que significa ONU?",
         "Resposta": ["0-Organização Nacional Unida", "1-Ordem das Nações Unidas", "2-Organização das Nações Unidas", "3-Organização Nuclear Universal"],
         "Correta": "2",
         "Dificuldade": "Médio"
@@ -36,7 +36,7 @@
         "Dificuldade": "Médio"
     },
     {
-        "Pergunta": "Ano da vhegada do homem à Lua:",
+        "Pergunta": "Ano da chegada do homem à Lua:",
         "Resposta": ["0-1965", "1-1969", "2-1972", "3-1959"],
         "Correta": "1",
         "Dificuldade": "Médio"
@@ -54,7 +54,7 @@
         "Dificuldade": "Médio"
     },
     {
-        "Pergunta": "Maior arquipélago portugêus",
+        "Pergunta": "Qual o maior arquipélago portugêus",
         "Resposta": ["0-Berlengas", "1-Açores", "2-Madeira", "3-Selvagens"],
         "Correta": "1",
         "Dificuldade": "Médio"
@@ -78,7 +78,7 @@
         "Dificuldade": "Médio"
     },
     {
-        "Pergunta": "A camada de ozono protege contra:",
+        "Pergunta": "A camada de Ozono protege contra:",
         "Resposta": ["0-Raios UV", "1-Chuva", "2-Frio", "3-Poluição sonora"],
         "Correta": "0",
         "Dificuldade": "Médio"

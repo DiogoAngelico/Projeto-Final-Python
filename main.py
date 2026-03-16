@@ -2,7 +2,7 @@ import json
 from menu import menu,menu_1,menu_2,algo
 
 try:
-    x=input("qual teu user: ")
+    x=input("Qual o seu user: ")
     while True:
         op=menu(x)
         if op=="1":

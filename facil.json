@@ -1,14 +1,14 @@
 [
     {
-        "Pergunta": "Qual a capital de Portugal",
+        "Pergunta": "Qual é a capital de Portugal",
         "Resposta": ["0-Porto", "1-Lisboa", "2-Coimbra", "3-Faro"],
         "Correta": "1",
         "Dificuldade": "Fácil"
     },
     {
-        "Pergunta": "A Revolução Industrial francesa iniciou-se em",
-        "Resposta": ["0-França", "1-Alemanha", "2-Inglaterra", "3-Itália"],
-        "Correta": "0",
+        "Pergunta": "Qual foi o ano do teste termonuclear mais forte dos Estados Unidos?",
+        "Resposta": ["0-1992", "1-1999", "2-1954", "3-1961"],
+        "Correta": "2",
         "Dificuldade": "Fácil"
     },
     {
@@ -60,7 +60,7 @@
         "Dificuldade": "Fácil"
     },
     {
-        "Pergunta": "Qual é a língua oficial de Portugal?",
+        "Pergunta": "Qual é a idioma oficial de Portugal?",
         "Resposta": ["0-Espanhol", "1-francês", "2-Português", "3-Galego"],
         "Correta": "2",
         "Dificuldade": "Fácil"
@@ -72,7 +72,7 @@
         "Dificuldade": "Fácil"
     },
     {
-        "Pergunta": "Que gás as plantas absorvem?",
+        "Pergunta": "Qual o gás as plantas absorvem?",
         "Resposta": ["0-Oxigénio", "1-Hidrogénio", "2-Dióxido de carbono", "3-Azoto"],
         "Correta": "2",
         "Dificuldade": "Fácil"
