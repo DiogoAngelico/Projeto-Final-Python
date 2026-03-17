@@ -1,5 +1,5 @@
 import json
-from menu import menu,menu_1,menu_2,algo
+from menu import menu,menu_1,menu_2,algo,menu_3
 
 try:
     x=input("Escreva o seu nome: ")
