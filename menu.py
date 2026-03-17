@@ -10,16 +10,24 @@ def menu(x):
     print("-----     3 sair       -----")    
     print("----------------------------")
     op = input(f"Qual opção deseja escolher,{x}?:")
+    print("\n")
+    print("----------------------------")
+    print("----------------------------")
     return op
 
 def menu_1():
+        print("\n")
         print("----------------------------")
         print("-----  Dificuldades    -----")
         print("-----  1-> Fácil       -----")
         print("-----  2-> Médio       -----")
         print("-----  3-> Díficil     -----")    
         print("----------------------------")
+        print("\n")
+        print("----------------------------")
         op_3=input("Qual a dificuldade que deseja jogar?:")
+        print("----------------------------")
+        print("\n")
         try:
             if op_3=="1":
                 logicafacil()

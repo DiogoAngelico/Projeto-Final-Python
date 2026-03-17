@@ -4,9 +4,9 @@ from pathlib import Path
 BASE_DIR=Path(__file__).resolve().parent
 import random
 
-
-try:    
-    def logicafacil():
+    
+def logicafacil():
+    try:
         variavel=0
         errou=0
         acertou=0
@@ -37,14 +37,14 @@ try:
         print(f"-------------------------Mas erraste {errou}-------------------------------------")
         print(f"-------------------------Tiveste {pontos} pontos---------------------------------")
         print("---------------------------------------------------------------------------------")
-except ValueError:
-    print("Coloque um valor dentro dos pedidos")
-except FileNotFoundError:
-    print("Não é possivel abrir o ficheiro da dificuldade facil")
+    except ValueError:
+        print("Coloque um valor dentro dos pedidos")
+    except FileNotFoundError:
+        print("Não é possivel abrir o ficheiro da dificuldade facil")
 
 
-try:
-    def logicamedia():
+def logicamedia():
+    try:
         errou=0
         acertou=0
         pontos=0
@@ -75,15 +75,15 @@ try:
         print(f"--------------------------Mas erraste {errou}------------------------------------")
         print(f"--------------------------Tiveste {pontos} pontos--------------------------------")
         print("---------------------------------------------------------------------------------")
-except ValueError:
-    print("Coloque um valor dentro dos pedidos")
-except FileNotFoundError:
-    print("Não é possivel abrir o ficheiro da dificuldade media")
+    except ValueError:
+        print("Coloque um valor dentro dos pedidos")
+    except FileNotFoundError:
+        print("Não é possivel abrir o ficheiro da dificuldade media")
 
 
 
-try:
-    def logicadificil():
+def logicadificil():
+    try:
         errou=0
         acertou=0
         pontos=0
@@ -114,9 +114,9 @@ try:
         print(f"--------------------------Mas erraste {errou}------------------------------------")
         print(f"--------------------------Tiveste {pontos} pontos--------------------------------")
         print("---------------------------------------------------------------------------------")
-except ValueError:
-    print("Coloque um valor dentro dos pedidos")
-except FileNotFoundError:
-    print("Não é possivel abrir o ficheiro da dificuldade dificil")
+    except ValueError:
+        print("Coloque um valor dentro dos pedidos")
+    except FileNotFoundError:
+        print("Não é possivel abrir o ficheiro da dificuldade dificil")
 
 
