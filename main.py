@@ -1,9 +1,9 @@
 import json
-from menu import menu,menu_1,menu_2,menu_3,algo
+from menu import menu,menu_1,menu_2,algo
 
 try:
-    x=input("Escreva o seu nome: ")
     while True:
+        x=input("Escreva o seu nome: ")
         op=menu(x)
         if op=="1":
             op_1=menu_1()

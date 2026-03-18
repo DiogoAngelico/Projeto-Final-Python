@@ -13,13 +13,9 @@ def menu(x):
     print("-----     3 sair       -----")    
     print("----------------------------")
     op = input(f"Qual opção deseja escolher,{x}?:")
-    print("\n")
-    print("----------------------------")
-    print("----------------------------")
     return op
 
 def menu_1():
-        global op_3
         while True:
             print("----------------------------")
             print("-----  Dificuldades    -----")
@@ -31,6 +27,7 @@ def menu_1():
             try:
                 if op_3=="1":
                     logicafacil()
+                break
             except SyntaxError:
                 print("Valor não pode ser inserido")
             
@@ -52,11 +49,7 @@ def menu_3():
     print("---          1-> Reiniciar             ---")
     print("---          2-> Sair                  ---")
     print("------------------------------------------")
-    x=input("Qual das seguintes opções deseja escolher?:")
-    if x=="1":
-        menu_1()
-    elif x=="2":
-        return        
+      
     
 def menu_2():
         while True:

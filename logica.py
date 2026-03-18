@@ -2,10 +2,11 @@ import json
 from lerperguntas import perguntadificil,perguntafacil,perguntamedia
 from pathlib import Path
 BASE_DIR=Path(__file__).resolve().parent
-from menu import menu_3
+
 
 try:    
     def logicafacil():
+        global final
         variavel=0
         errou=0
         acertou=0
@@ -36,7 +37,15 @@ try:
         print(f"-------------------------Mas erraste {errou}-------------------------------------")
         print(f"-------------------------Tiveste {pontos} pontos---------------------------------")
         print("---------------------------------------------------------------------------------")
-        #menu_3()
+        from menu import menu_3,menu_1
+        menu_3()
+        final=input("Qual das seguintes opções deseja escolher?:")
+        if final=="1":
+            menu_1()
+        elif final=="2":
+            return
+
+            
 
 except ValueError:
     print("Coloque um valor dentro dos pedidos")
