@@ -6,7 +6,6 @@ BASE_DIR=Path(__file__).resolve().parent
 
 try:    
     def logicafacil():
-        global final
         variavel=0
         errou=0
         acertou=0
@@ -52,81 +51,95 @@ except ValueError:
 except FileNotFoundError:
     print("Não é possivel abrir o ficheiro da dificuldade facil")
 
+try:
+    def logicamedia():
+            errou=0
+            acertou=0
+            pontos=0
+            variavel=0
+            perguntas=perguntamedia()
+            while variavel<10:
+                for dic in perguntas:
+                    print("---------------------------------------------------------------")
+                    print(dic['Pergunta'])
+                    print("---------------------------------------------------------------")
+                    for i in dic["Resposta"]:
+                        print(i)
+                    x=input("qual a resposta certa?:")
+                    for u in dic["Correta"]:
+                        if x==u:
+                            input("Acertaste")
+                            acertou+=1
+                            pontos+=2
+                            variavel+=1
+                        else:
+                            input("Erraste")
+                            errou+=1
+                            variavel+=1
+                    if variavel==10:
+                        break
+            print("---------------------------------------------------------------------------------")
+            print(f"--------------------------Parabens! acertaste {acertou}/10-----------------------")
+            print(f"--------------------------Mas erraste {errou}------------------------------------")
+            print(f"--------------------------Tiveste {pontos} pontos--------------------------------")
+            print("---------------------------------------------------------------------------------")
+            from menu import menu_3,menu_1
+            menu_3()
+            final=input("Qual das seguintes opções deseja escolher?:")
+            if final=="1":
+                menu_1()
+            elif final=="2":
+                return
+except ValueError:
+    print("Coloque um valor dentro dos pedidos")
+except FileNotFoundError:
+    print("Não é possivel abrir o ficheiro da dificuldade media")
+    
 
-def logicamedia():
-    try:
-        errou=0
-        acertou=0
-        pontos=0
-        variavel=0
-        perguntas=perguntamedia()
-        while variavel<10:
-            for dic in perguntas:
-                print("---------------------------------------------------------------")
-                print(dic['Pergunta'])
-                print("---------------------------------------------------------------")
-                for i in dic["Resposta"]:
-                    print(i)
-                x=input("qual a resposta certa?:")
-                for u in dic["Correta"]:
-                    if x==u:
-                        input("Acertaste")
-                        acertou+=1
-                        pontos+=2
-                        variavel+=1
-                    else:
-                        input("Erraste")
-                        errou+=1
-                        variavel+=1
-                if variavel==10:
-                    break
-        print("---------------------------------------------------------------------------------")
-        print(f"--------------------------Parabens! acertaste {acertou}/10-----------------------")
-        print(f"--------------------------Mas erraste {errou}------------------------------------")
-        print(f"--------------------------Tiveste {pontos} pontos--------------------------------")
-        print("---------------------------------------------------------------------------------")
-    except ValueError:
-        print("Coloque um valor dentro dos pedidos")
-    except FileNotFoundError:
-        print("Não é possivel abrir o ficheiro da dificuldade media")
 
 
-
-def logicadificil():
-    try:
-        errou=0
-        acertou=0
-        pontos=0
-        variavel=0
-        perguntas=perguntadificil()
-        while variavel<10:
-            for dic in perguntas:
-                print("---------------------------------------------------------------")
-                print(dic['Pergunta'])
-                print("---------------------------------------------------------------")
-                for i in dic["Resposta"]:
-                    print(i)
-                x=input("qual a resposta certa?:")
-                for u in dic["Correta"]:
-                    if x==u:
-                        input("Acertaste")
-                        acertou+=1
-                        pontos+=3
-                        variavel+=1
-                    else:
-                        input("Erraste")
-                        errou+=1
-                        variavel+=1
-                if variavel==10:
-                    break
-        print("---------------------------------------------------------------------------------")
-        print(f"---------------------------Parabens! acertaste {acertou}/10----------------------")
-        print(f"--------------------------Mas erraste {errou}------------------------------------")
-        print(f"--------------------------Tiveste {pontos} pontos--------------------------------")
-        print("---------------------------------------------------------------------------------")
-    except ValueError:
-        print("Coloque um valor dentro dos pedidos")
-    except FileNotFoundError:
-        print("Não é possivel abrir o ficheiro da dificuldade dificil")
+try:
+    def logicadificil(): 
+            errou=0
+            acertou=0
+            pontos=0
+            variavel=0
+            perguntas=perguntadificil()
+            while variavel<10:
+                for dic in perguntas:
+                    print("---------------------------------------------------------------")
+                    print(dic['Pergunta'])
+                    print("---------------------------------------------------------------")
+                    for i in dic["Resposta"]:
+                        print(i)
+                    x=input("qual a resposta certa?:")
+                    for u in dic["Correta"]:
+                        if x==u:
+                            input("Acertaste")
+                            acertou+=1
+                            pontos+=3
+                            variavel+=1
+                        else:
+                            input("Erraste")
+                            errou+=1
+                            variavel+=1
+                    if variavel==10:
+                        break
+            print("---------------------------------------------------------------------------------")
+            print(f"---------------------------Parabens! acertaste {acertou}/10----------------------")
+            print(f"--------------------------Mas erraste {errou}------------------------------------")
+            print(f"--------------------------Tiveste {pontos} pontos--------------------------------")
+            print("---------------------------------------------------------------------------------")
+            from menu import menu_3,menu_1
+            menu_3()
+            final=input("Qual das seguintes opções deseja escolher?:")
+            if final=="1":
+                menu_1()
+            elif final=="2":
+                return
+except ValueError:
+    print("Coloque um valor dentro dos pedidos")
+except FileNotFoundError:
+    print("Não é possivel abrir o ficheiro da dificuldade dificil")
 
 

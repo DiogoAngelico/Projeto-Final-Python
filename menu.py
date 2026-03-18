@@ -1,5 +1,4 @@
 import json
-from logica import logicafacil,logicadificil,logicamedia
 algo=True
 
 
@@ -26,20 +25,17 @@ def menu_1():
             op_3=input("Qual a dificuldade que deseja jogar?:")
             try:
                 if op_3=="1":
+                    from logica import logicafacil
                     logicafacil()
-                break
-            except SyntaxError:
-                print("Valor não pode ser inserido")
-            
-            try:    
+                    break    
                 if op_3=="2":
+                    from logica import logicamedia
                     logicamedia()
-            except SyntaxError:
-                print("Valor não pode ser inserido")
-            
-            try:    
+                    break
                 if op_3=="3":
+                    from logica import logicadificil
                     logicadificil()
+                    break
             except SyntaxError:
                 print("Valor não pode ser inserido")
        
