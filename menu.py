@@ -2,6 +2,9 @@ import json
 from logica import logicafacil,logicadificil,logicamedia
 algo=True
 
+
+
+
 def menu(x):
     print("----------------------------")
     print(f"    Bem vindo ao Word Quiz, {x} ")
@@ -16,68 +19,44 @@ def menu(x):
     return op
 
 def menu_1():
-        print("\n")
-        print("----------------------------")
-        print("-----  Dificuldades    -----")
-        print("-----  1-> Fácil       -----")
-        print("-----  2-> Médio       -----")
-        print("-----  3-> Díficil     -----")    
-        print("----------------------------")
-        print("\n")
-        print("----------------------------")
-        op_3=input("Qual a dificuldade que deseja jogar?:")
-        print("----------------------------")
-        print("\n")
-        try:
-            if op_3=="1":
-                logicafacil()
-                print("Agora,tens 3 opções,pressionar enter para reiniciar neste modo, escreva retornar para retornar para as dificudades,  ")
-                input("E escreve sair para sair do jogo")
-                final=input("Qual opção gostarias de escolher:")
-                while algo:
-                    if final=="":
-                        logicafacil()
-                        break
-                    if final=="retornar":
-                        menu_1()
-                    if final=="sair":
-                        break
-        except SyntaxError:
-            print("Valor não pode ser inserido")
-        
-        try:    
-            if op_3=="2":
-                logicamedia()
-                print("Agora,tens 3 opções,pressionar enter para reiniciar neste modo, escreva retornar para retornar para as dificudades,  ")
-                input("E escreve sair para acabar com o jogo")
-                final=input("Qual opção gostaria de escolher?:")
-                while algo:
-                    if final=="":
-                        logicamedia()
-                    if final=="retornar":
-                        menu_1()
-                    if final=="sair":
-                        break
-        except SyntaxError:
-            print("Valor não pode ser inserido")
-        
-        try:    
-            if op_3=="3":
-                logicadificil()
-                print("Agora,tens 3 opções,pressionar enter para reiniciar neste modo, escreva retornar para retornar para as dificudades,  ")
-                input("E escreve sair para acabar com o jogo")
-                final=input("Qual opção gostaria de escolher?:")
-                while algo:
-                    if final=="":
-                        logicadificil()
-                    if final=="retornar":
-                        menu_1()
-                    if final=="sair":
-                        break 
-        except SyntaxError:
-            print("Valor não pode ser inserido")
+        global op_3
+        while True:
+            print("----------------------------")
+            print("-----  Dificuldades    -----")
+            print("-----  1-> Fácil       -----")
+            print("-----  2-> Médio       -----")
+            print("-----  3-> Díficil     -----")    
+            print("----------------------------")
+            op_3=input("Qual a dificuldade que deseja jogar?:")
+            try:
+                if op_3=="1":
+                    logicafacil()
+            except SyntaxError:
+                print("Valor não pode ser inserido")
+            
+            try:    
+                if op_3=="2":
+                    logicamedia()
+            except SyntaxError:
+                print("Valor não pode ser inserido")
+            
+            try:    
+                if op_3=="3":
+                    logicadificil()
+            except SyntaxError:
+                print("Valor não pode ser inserido")
        
-        
+def menu_3():
+    print("------------------------------------------")
+    print("--- Agora tens 2 opções para escolher: ---")
+    print("---          1-> Reiniciar             ---")
+    print("---          2-> Sair                  ---")
+    print("------------------------------------------")
+    x=input("Qual das seguintes opções deseja escolher?:")
+    if x=="1":
+        menu_1()
+    elif x=="2":
+        return        
     
 def menu_2():
         while True:
@@ -98,5 +77,4 @@ def menu_2():
             if x== "":
                  break
 
- 
  

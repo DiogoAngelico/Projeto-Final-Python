@@ -2,11 +2,10 @@ import json
 from lerperguntas import perguntadificil,perguntafacil,perguntamedia
 from pathlib import Path
 BASE_DIR=Path(__file__).resolve().parent
-import random
+from menu import menu_3
 
-    
-def logicafacil():
-    try:
+try:    
+    def logicafacil():
         variavel=0
         errou=0
         acertou=0
@@ -31,16 +30,18 @@ def logicafacil():
                         errou+=1
                         variavel+=1
                 if variavel==10:
-                    break               
+                    break           
         print("---------------------------------------------------------------------------------")
         print(f"-------------------------Parabens! acertaste {acertou}/10------------------------")
         print(f"-------------------------Mas erraste {errou}-------------------------------------")
         print(f"-------------------------Tiveste {pontos} pontos---------------------------------")
         print("---------------------------------------------------------------------------------")
-    except ValueError:
-        print("Coloque um valor dentro dos pedidos")
-    except FileNotFoundError:
-        print("Não é possivel abrir o ficheiro da dificuldade facil")
+        #menu_3()
+
+except ValueError:
+    print("Coloque um valor dentro dos pedidos")
+except FileNotFoundError:
+    print("Não é possivel abrir o ficheiro da dificuldade facil")
 
 
 def logicamedia():
